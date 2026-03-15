@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: weather-logger
+data:
+  CITIES: "Lagos,Abuja,Tokyo,London"
+  DB_HOST: postgres-service
+  DB_PORT: "5432"
